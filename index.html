@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=deviroce-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmedabad IT Jobs</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./scripts.js">
+</head>
+<body>
+<div class="w">
+<header>
+  <div><h1>Ahmedabad <span>IT Jobs</span></h1><p class="sub">IT and software jobs in Gujarat, all in one place. Search, save and apply.</p></div>
+  <button class="btn" id="postBtn">+ Post a job</button>
+</header>
+<div class="tabs">
+  <button class="tab on" data-t="all">All jobs</button>
+  <button class="tab" data-t="saved">Saved (<span id="sc">0</span>)</button>
+  <button class="tab" data-t="apps">My applications (<span id="ac">0</span>)</button>
+</div>
+<div id="filters" class="bar">
+  <input id="q" placeholder="Search by job title, company or skill…">
+  <select id="fType"><option value="">Job type</option><option>Full-time</option><option>Internship</option><option>Part-time</option><option>Remote</option></select>
+  <select id="fExp"><option value="">Experience</option><option value="0">Fresher (0-1 yr)</option><option value="2">1-3 yrs</option><option value="4">3+ yrs</option></select>
+  <select id="fArea"><option value="">Area</option></select>
+</div>
+<div class="cnt" id="cnt"></div>
+<div id="list"></div>
+</div>
+
+<div class="ov" id="ov"><div class="md" id="md"></div></div>
+
+<script src="./scripts.js"></script>
+</body>
+</html>
